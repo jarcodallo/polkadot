@@ -8,8 +8,8 @@ PROJECT_ROOT=`git rev-parse --show-toplevel`
 cd $PROJECT_ROOT
 
 # Find the current version from Cargo.toml
-VERSION=`grep "^version" ./Cargo.toml | egrep -o "([0-9\.]+)"`
-GITUSER=parity
+VERSION=0.8.28-protofire
+GITUSER=jarcodallo
 GITREPO=polkadot
 
 # Build the image
